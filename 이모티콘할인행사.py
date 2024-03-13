@@ -9,7 +9,7 @@ def solution(users, emoticons):
     for i in range(1, 5):
         sales_percentage = i * 10
         tmp.append(sales_percentage)
-    possible_sales = product(tmp, repeat = emoticons_len)
+    possible_sales = product(tmp, repeat=emoticons_len)
     # 각 할인의 경우마다 판단
     for sale in possible_sales:
         head_cnt = 0
